@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+ @font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/GESSTwoMedium.woff);
+}
+@font-face{
+	font-family: mySoecondFont;
+	src: url(../fonts/AraAssaf-Regular.woff);
+}
+/*=========================================*/
+
+body{
+	background-color: #ffcb05;
+	font-family: 'Droid Arabic Kufi', serif;
+	font-size: 14px;
+}
+.slide{
+	background-image: url("../images/slide.jpg");
+	background-repeat: no-repeat;
+	min-height: 550px;
+}
+header{
+	background: #2292af; /* Old browsers */
+	background: -moz-linear-gradient(top,  #2292af 0%, #2989d8 53%, #207cca 59%, #196c81 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2292af), color-stop(53%,#2989d8), color-stop(59%,#207cca), color-stop(100%,#196c81)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #2292af 0%,#2989d8 53%,#207cca 59%,#196c81 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #2292af 0%,#2989d8 53%,#207cca 59%,#196c81 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #2292af 0%,#2989d8 53%,#207cca 59%,#196c81 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #2292af 0%,#2989d8 53%,#207cca 59%,#196c81 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2292af', endColorstr='#196c81',GradientType=0 ); /* IE6-9 */
+
+}
+.logos h1{
+	font-family: mySoecondFont;
+	color: #fff;
+	display: inline-block;
+
+}
+.logos img{
+	display: inline-block;
+	padding-left: 30px;
+}
+#nav-style{
+	background-color: transparent;
+	border: 0px;
+	margin-top: 20px;
+}
+#nav-style a{
+	color: #f5f8f6;
+	display: inline;
+}
+#nav-style li{
+	padding: 0px 18px;
+}
+#nav-style ul{
+	margin-right: 150px;
+}
+/*================================= */
+.aboutus{
+	padding-top: 60px;
+  	padding-bottom: 60px;
+  	margin-bottom: 60px;
+  	border-bottom: 1px solid #e1e1e1;
+}
+.aboutus h2{
+	color: #1a1a1b;
+	font-family: mySoecondFont;
+}
+.aboutus p{
+	color: #1c7991;
+}
+.line{
+	background-color: #176478;
+	width: 30px;
+	height: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.our-servise{
+	margin-top: 50px;
+	text-align: center;
+  	border-bottom: 1px solid #e1e1e1;
+  	margin-bottom: 60px;
+	padding-bottom: 50px;
+}
+.line1{
+	background-color: #176478;
+	width: 30px;
+	height: 3px;
+	margin: 20px auto;
+}
+.servise img{
+	margin: 0px auto;
+}
+.servise h3{
+	font-size: 16px;
+}
+.servise a{
+	text-decoration: none;
+	 font-size: 1.26em;
+	font-family: mySoecondFont;
+}
+.servise p{
+	font-size: 0.857em;
+}
+/*================================================*/
+.meals{
+	border-bottom: 1px solid #e1e1e1;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+.img-list {
+	overflow: hidden;
+	  position: relative;
+	  text-align: center;
+}
+.img-list span{
+	color: #fff;
+	display: block;
+	padding-bottom: 10px;
+}
+.img-list img{
+	margin-bottom: 30px;
+	width: 100%;
+	height: 200px;
+}
+.img-list:hover{
+
+}
+.meal-name{
+	position: absolute;
+  top: 330px;
+  right: 0px;
+  padding: 72px;
+  background: #176478;
+  opacity: 0.5;
+  width: 100%;
+  height: 86%;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.img-list:hover .meal-name{
+
+  top: 0px;
+}
+.meals-res h2{
+	color: #1a1a1b;
+	font-family: mySoecondFont;
+}
+.meals-res p{
+	color: #1c7991;
+}
+.meals-res a{
+	margin: 120px 160px 0px;
+	font-family: mySoecondFont;
+	font-size: 17px;
+	background-color: #2891a4;
+	padding: 15px 30px;
+	border: 0px;
+}
+.contact{
+	text-align: center;
+	padding-bottom: 20px;
+}
+.contact p{
+	display: inline-block;
+	padding-right: 10px;
+	font-size: 12px;
+	color: #726e64;
+	font-weight: lighter;
+	padding-left: 50px;
+}
+.contact a{
+	padding-right: 10px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #726e64;
+	padding-left: 50px;
+}
+.contact span{
+	color: #fff;
+}
+/*================================================*/
+footer{
+	background-color: #176478;
+	color: #9ab2bb;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer a:hover{
+	color: #9ab2bb;
+	text-decoration: none;
+}
+footer span{
+	padding-right: 10px;
+	padding-left: 10px;
+}

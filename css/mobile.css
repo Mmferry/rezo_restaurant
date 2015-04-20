@@ -1,0 +1,53 @@
+@media (max-width: 1198px) {
+
+#nav-style li{
+	padding: 0px 0px;
+}
+
+}
+@media (max-width: 990px) {
+#nav-style ul{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#nav-style a{
+	font-size: 10px;
+}
+.search input{
+	width: 45%;
+}
+.search span{
+	padding-right: 5px;
+}
+.socialt{
+	padding: 7px 6px;
+	margin-right: 5px;
+}
+.socialf{
+	margin-right: 5px;
+	padding: 6px 9px;
+}
+.sosearch {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+}
+@media (max-width: 930px) {
+	.company-name{
+	background-color: #fcf3ec;
+}
+}
+@media all and (max-width: 761px) and (min-width: 320px) {
+	.sosearch{
+		margin: 5px auto 10px;
+	}
+	.search input{
+	width: 30%;
+	}
+	.extera{
+		text-align: center;
+	}
+	.extera li{
+		text-align: center;
+	}
+}
